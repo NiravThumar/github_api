@@ -12,7 +12,7 @@ async function getUserInfo(user, index) {
     await fetch(`https://api.github.com/users/${user}`, {
         method: "GET",
         headers: {
-            Authorization: 'Bearer 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'
+            Authorization: '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'
         }
     })
         .then((response) => {
