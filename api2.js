@@ -12,7 +12,8 @@ async function getUserInfo(user, index) {
     await fetch(`https://api.github.com/users/${user}`, {
         method: "GET",
         headers: {
-            Authorization: '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'
+
+            Authorization: 'Bearer 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'
         }
     })
         .then((response) => {
@@ -24,7 +25,7 @@ async function getUserInfo(user, index) {
             }
         })
 
-
+        
     if (userLength == (found + notFound)) {
         console.log('found : ', found, ' notFound : ', notFound);
         const endTime = performance.now();
