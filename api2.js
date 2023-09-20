@@ -13,7 +13,7 @@ async function getUserInfo(user, index) {
         method: "GET",
         headers: {
 
-            Authorization: 'Bearer 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'
+            Authorization: 'Bearer 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'
         }
     })
         .then((response) => {
